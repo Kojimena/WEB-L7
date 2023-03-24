@@ -2,8 +2,7 @@
     color: white;
     display: flex;
     flex-direction: row;
-    width: 1000px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .info_card{
