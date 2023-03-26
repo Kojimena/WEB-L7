@@ -109,36 +109,28 @@
     position: relative;
 }
 
-.header-container{
-  display: block;
-    width: 100%;
-    max-width: 1400px;
-    box-sizing: border-box;
-    padding: 1px 23px 0 23px;
-    margin: 0 auto;
-    height: auto;
-}
-
-.header {
+/* Header */
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
-  padding: 10px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: #353748;
 }
 
-.icon {
-  font-size: 2rem;
-  color: #1a1a1a;
+.header-icons {
+  margin-top: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
-.menu-icon {
-  font-size: 2rem;
-  color: #1a1a1a;
-  cursor: pointer;
-}
-
-.menu-icon:hover {
-  color: #0079ff;
+.header-icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  fill: white;
 }
