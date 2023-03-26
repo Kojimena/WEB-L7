@@ -1,9 +1,9 @@
 import React from "react"
 
 const itemsCheck = {
-  pSearch: "Private Search",
-  tBlocking: "Tracker Blocking",
-  sEncrypt: "Site encryption",
+  pSearch: "Búsqueda Privada",
+  tBlocking: "Bloqueo De Rastreadores",
+  sEncrypt: "Encriptación De Sitios",
 }
 
 const CheckItem = () => {

@@ -3,12 +3,47 @@ import "./InfoCards.css"
 import PropTypes from "prop-types"
 
 const infoText = {
-  card_1_info: `Navega como siempre y nosotros nos encargamos del resto.
-     Te ofrecemos buscador, bloqueador de rastreadores y mejora de encriptación todo en una extensión de Chrome`,
-  card_2_info: `Busca de forma privada con nuestra app o extensión, 
-  añade búsqueda web privada a tu navegador preferido o busca en duckduckgo.com.`,
-  card_3_info: `Nuestro navegador privado para móviles viene equipado con nuestro 
-  motor de búsqueda, bloqueador de rastreadores, mejora de encriptación y más. Disponible para iOS y Android.`,
+  card_1_info: (
+    <>
+      Navega como siempre y nosotros nos encargamos del resto. Te ofrecemos
+      buscador, bloqueador de rastreadores y mejora de encriptación todo en
+      una&nbsp;
+      <a
+        href="https://duckduckgo.com/app"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        extensión de Chrome
+      </a>
+    </>
+  ),
+  card_2_info: (
+    <>
+      Busca de forma privada con nuestra app o extensión, añade búsqueda web
+      privada a tu navegador preferido o busca en&nbsp;
+      <a
+        href="https://duckduckgo.com/app"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        duckduckgo.com.
+      </a>
+    </>
+  ),
+  card_3_info: (
+    <>
+      Nuestro navegador privado para móviles viene equipado con nuestro motor de
+      búsqueda, bloqueador de rastreadores, mejora de encriptación y más.
+      Disponible para&nbsp;
+      <a
+        href="https://duckduckgo.com/app"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        iOS y Android.
+      </a>
+    </>
+  ),
 }
 
 const Card = ({ img, title, info }) => {
